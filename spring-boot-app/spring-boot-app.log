@@ -1,0 +1,139 @@
+2019-03-24 19:42:05.975  INFO 128 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : Starting MyspringbootappApplication on LAPTOP-8QQK1UIM with PID 128 (F:\OxygenWSForGIT\SpringBoot\spring-boot-app\spring-boot-app\target\classes started by Taher in F:\OxygenWSForGIT\SpringBoot\spring-boot-app\spring-boot-app)
+2019-03-24 19:42:05.975  INFO 128 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : No active profile set, falling back to default profiles: default
+2019-03-24 19:42:06.379  INFO 128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2019-03-24 19:42:06.379  INFO 128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 19:42:06.379  INFO 128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-24 19:42:06.394  INFO 128 --- [restartedMain] o.a.c.c.C.[.[.[/spring-boot-demo]        : Initializing Spring embedded WebApplicationContext
+2019-03-24 19:42:06.394  INFO 128 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 419 ms
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-24 19:42:06.490 DEBUG 128 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-24 19:42:06.521  INFO 128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 19:42:06.595  INFO 128 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c5291f6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fb76bb0, org.springframework.security.web.header.HeaderWriterFilter@481f44dc, org.springframework.security.web.csrf.CsrfFilter@27780bbc, org.springframework.security.web.authentication.logout.LogoutFilter@6f98d2bd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@66a5d31c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2b36d680, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3ae6616b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@589469a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c4a713e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e41e9cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72937818, org.springframework.security.web.session.SessionManagementFilter@18f5b6f9, org.springframework.security.web.access.ExceptionTranslationFilter@76b4b353, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5098c750]
+2019-03-24 19:42:06.611  INFO 128 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2019-03-24 19:42:06.627  INFO 128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-24 19:42:06.642  INFO 128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/spring-boot-demo'
+2019-03-24 19:42:06.642  INFO 128 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : Started MyspringbootappApplication in 0.686 seconds (JVM running for 317.406)
+2019-03-24 19:42:06.642  INFO 128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file spring-boot-app.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-03-24 19:42:24.890 DEBUG 16116 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-03-24 19:42:24.890 DEBUG 16116 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-24 19:42:24.890 DEBUG 16116 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-24 19:42:24.890 DEBUG 16116 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-24 19:42:24.890 DEBUG 16116 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-24 19:42:24.890 DEBUG 16116 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-24 19:42:24.963  INFO 16116 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : Starting MyspringbootappApplication on LAPTOP-8QQK1UIM with PID 16116 (F:\OxygenWSForGIT\SpringBoot\spring-boot-app\spring-boot-app\target\classes started by Taher in F:\OxygenWSForGIT\SpringBoot\spring-boot-app\spring-boot-app)
+2019-03-24 19:42:24.963  INFO 16116 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : No active profile set, falling back to default profiles: default
+2019-03-24 19:42:25.006  INFO 16116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-24 19:42:25.006  INFO 16116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-24 19:42:26.906  INFO 16116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2019-03-24 19:42:26.930  INFO 16116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 19:42:26.930  INFO 16116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-24 19:42:26.951  INFO 16116 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_172/bin/server;C:/Program Files/Java/jre1.8.0_172/bin;C:/Program Files/Java/jre1.8.0_172/lib/amd64;C:\app\Taher\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%MAVEN_HOME%\bin;C:\Users\Taher\AppData\Local\Microsoft\WindowsApps;;H:\Softwares\Eclipse\Oxygen\eclipse-jee-oxygen-M2-win32-x86_64\eclipse;;.]
+2019-03-24 19:42:27.019  INFO 16116 --- [restartedMain] o.a.c.c.C.[.[.[/spring-boot-demo]        : Initializing Spring embedded WebApplicationContext
+2019-03-24 19:42:27.019  INFO 16116 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2013 ms
+2019-03-24 19:42:27.466 DEBUG 16116 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-24 19:42:27.466 DEBUG 16116 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-03-24 19:42:27.467 DEBUG 16116 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-24 19:42:27.468 DEBUG 16116 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-24 19:42:27.468 DEBUG 16116 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-24 19:42:27.469 DEBUG 16116 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-24 19:42:27.470 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-24 19:42:27.470 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2019-03-24 19:42:27.470 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2019-03-24 19:42:27.470 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-24 19:42:27.470 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-24 19:42:27.473 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-24 19:42:27.474 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-24 19:42:27.474 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-24 19:42:27.474 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-24 19:42:27.474 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-24 19:42:27.597  INFO 16116 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 19:42:28.119  INFO 16116 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14ce398e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7238e7d4, org.springframework.security.web.header.HeaderWriterFilter@4fe39dfb, org.springframework.security.web.csrf.CsrfFilter@4a673a31, org.springframework.security.web.authentication.logout.LogoutFilter@29872d66, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53b2a7d0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@11660c90, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2a2bc75f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@95ac843, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@443ad093, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46c61f97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75947222, org.springframework.security.web.session.SessionManagementFilter@778ba3e3, org.springframework.security.web.access.ExceptionTranslationFilter@3026425d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2980e7b1]
+2019-03-24 19:42:28.149  INFO 16116 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2019-03-24 19:42:28.222  INFO 16116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-24 19:42:28.277  INFO 16116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/spring-boot-demo'
+2019-03-24 19:42:28.292  INFO 16116 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : Started MyspringbootappApplication in 3.708 seconds (JVM running for 4.077)
+2019-03-24 19:44:49.632  INFO 16116 --- [http-nio-8085-exec-2] o.a.c.c.C.[.[.[/spring-boot-demo]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 19:44:49.632  INFO 16116 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 19:44:49.640  INFO 16116 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-03-24 19:46:25.748  INFO 16116 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 19:46:26.013  INFO 16116 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : Starting MyspringbootappApplication on LAPTOP-8QQK1UIM with PID 16116 (F:\OxygenWSForGIT\SpringBoot\spring-boot-app\spring-boot-app\target\classes started by Taher in F:\OxygenWSForGIT\SpringBoot\spring-boot-app\spring-boot-app)
+2019-03-24 19:46:26.013  INFO 16116 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : No active profile set, falling back to default profiles: default
+2019-03-24 19:46:26.505  INFO 16116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2019-03-24 19:46:26.508  INFO 16116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 19:46:26.509  INFO 16116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-24 19:46:26.527  INFO 16116 --- [restartedMain] o.a.c.c.C.[.[.[/spring-boot-demo]        : Initializing Spring embedded WebApplicationContext
+2019-03-24 19:46:26.527  INFO 16116 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 512 ms
+2019-03-24 19:46:26.685 DEBUG 16116 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-24 19:46:26.686 DEBUG 16116 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-03-24 19:46:26.687 DEBUG 16116 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-24 19:46:26.687 DEBUG 16116 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-24 19:46:26.687 DEBUG 16116 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-24 19:46:26.687 DEBUG 16116 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-24 19:46:26.688 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-24 19:46:26.688 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2019-03-24 19:46:26.689 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2019-03-24 19:46:26.689 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-24 19:46:26.689 DEBUG 16116 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-24 19:46:26.695 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-24 19:46:26.696 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-24 19:46:26.696 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-24 19:46:26.696 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-24 19:46:26.696 DEBUG 16116 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-24 19:46:26.748  INFO 16116 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 19:46:26.913  INFO 16116 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c5d5070, org.springframework.security.web.context.SecurityContextPersistenceFilter@31ec3ac5, org.springframework.security.web.header.HeaderWriterFilter@7afad1bd, org.springframework.security.web.csrf.CsrfFilter@689783c2, org.springframework.security.web.authentication.logout.LogoutFilter@33042447, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3c3ffd8e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@63ee00ed, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@66667da2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7bbd011d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2309b7ec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fd2fd09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25f63f6d, org.springframework.security.web.session.SessionManagementFilter@65b12c22, org.springframework.security.web.access.ExceptionTranslationFilter@13102cf8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@483e57fe]
+2019-03-24 19:46:26.925  INFO 16116 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuators'
+2019-03-24 19:46:26.949  INFO 16116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-24 19:46:26.984  INFO 16116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/spring-boot-demo'
+2019-03-24 19:46:26.985  INFO 16116 --- [restartedMain] c.s.d.s.MyspringbootappApplication       : Started MyspringbootappApplication in 0.993 seconds (JVM running for 242.769)
+2019-03-24 19:46:26.990  INFO 16116 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 19:46:39.707  INFO 16116 --- [http-nio-8085-exec-2] o.a.c.c.C.[.[.[/spring-boot-demo]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 19:46:39.708  INFO 16116 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 19:46:39.721  INFO 16116 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
